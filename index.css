@@ -1,0 +1,43 @@
+*{
+  margin: 5px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+body{
+  background-color: skyblue;
+}
+img{
+  width: 30px;
+  height: 65px;
+  border-radius: 60%;
+}
+.container{
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  border-radius: 50%;
+
+}
+.container .pic{
+  display: flex;
+  align-items: center;
+}
+.container h3{
+  font-size: 30px;
+  color: blue;
+  margin-left: 15px;
+}
+.btn{
+  background-color: antiquewhite;
+  padding: 20px;
+  color:blue;
+  font-style: italic;
+  border-radius: 50%;
+  cursor:pointer;
+
+}
+.btn:hover{
+  background-color: cornsilk;
+  color: black;
+}
